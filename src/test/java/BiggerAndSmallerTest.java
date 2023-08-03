@@ -1,5 +1,4 @@
-package org.example;
-
+import org.example.BiggerAndSmaller;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -13,7 +12,7 @@ public class BiggerAndSmallerTest {
         Assert.assertEquals(9, bas.bigger());
     }
     @Test
-    public void Incorder1() {
+    public void anyorder() {
         BiggerAndSmaller bas = new BiggerAndSmaller();
         bas.find(new int[]{5, 4, 10, 2});
         Assert.assertEquals(2, bas.smaller());
